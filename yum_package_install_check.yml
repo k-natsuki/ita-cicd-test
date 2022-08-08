@@ -1,7 +1,7 @@
 - name: install the latest version of packages
   yam:
     name: "{{ item }}"
-    state: latest
+    state:latest
   with_items:
     - "{{ VAR_packages }}"
     
